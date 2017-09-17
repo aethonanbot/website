@@ -122,94 +122,43 @@
             </div>
         </div>
     </div>
-    <div class="alert-stack">
-    <div class="alert alert-warning alert-dismissible fade in" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true"><i class="glyph glyph-cancel"></i></span>
-        </button>
-        <div class="container">
+    <div class="container">
+    <div class="row" id="paragraphs">
+        <div class="col-xs-24">
             <div class="row">
-                <div class="col-md-20">
-                    <p>This Website is under construction.</p>
+                <div class="col-xs-24">
+                    <h2>Paragraphs</h2>
+                    <p>There are four paragraph controls in Torkware. <code>&lt;p&gt;</code> is mapped to <code>type-p3</code>.</p>
+                    <p>You can also apply paragraphs using the Sass mixin. Paragraphs applied using the mixin are not responsive
+                        by default. Pass the <code>responsive</code> argument to make them responsive.</p>
                 </div>
-                <div class="col-md-4">
-                    <p>
-                        <a href="https://github.com/aethonan/aethonan.github.io/" class="pull-right hidden-xs hidden-sm">Source Code</a>
-                        <!--<a href="https://github.com/aethonan/aethonan.github.io/" class="visible-xs-inline visible-sm-inline hidden-md">Source Code</a>-->
+            </div>
+            <div class="row m-t-sm">
+                <div class="col-md-12">
+                    <p class="type-p1">Paragraph 1</p>
+                    <p class="type-p1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
                     </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="page-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-24 col-sm-16">
-                <h2><span class="color-type-primary">Aethonan</span> <span class="color-type-secondary">0.1.0</span></h2>
-                <div class="type-sh2">This bot can notify you about builds from the continuous integration system.</div>
-                <div class="m-t-xs m-b-md"><a href="https://t.me/aethonanbot" class="btn btn-primary">Aethonan on Telegram</a></div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="integrations" class="jumbotron theme-dark hidden visible-md visible-lg visible-xl">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-24 text-center">
-                <img class="img-responsive visible-xs-inline-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block visible-xl-inline-block"
-                    alt="" src="images/workflow.svg" data-source-index="2">
-            </div>
-        </div>
-    </div>
-</div>
-<div class="jumbotron theme-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-md-push-12 text-center">
-                <img class="img-responsive visible-xs-inline-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block visible-xl-inline-block"
-                    alt="Travis CI" src="images/TravisCI-Mascot-1.svg" data-source-index="2" width="200">
-            </div>
-            <div class="col-md-12 col-md-pull-12">
-                <div id="travis-ci" class="type-h3">
-                    Travis CI
-                </div>
-                <div class="type-sh3">
-                    A hosted, distributed continuous integration service used to build and test software projects hosted at GitHub.
-                </div>
-                <p>You can define webhooks to be notified on Telegram about build results, or multiple URLs for multiple groups,
-                    as with other notifications types you can specify when webhook payloads will be sent.</p>
-                <div class="btn-group">
-                    <a class="btn btn-primary" href="https://www.travis-ci.com" target="_blank" title="Web Site">Web Site</a>
-                    <a class="btn btn-secondary" href="https://docs.travis-ci.com/user/notifications/#Configuring-webhook-notifications" target="_blank"
-                        title="Documentation">Documentation</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="jumbotron theme-alt">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-md-push-12 text-center">
-                <img class="img-responsive visible-xs-inline-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block visible-xl-inline-block"
-                    alt="Circle CI" src="images/circleci-logo.svg" data-source-index="2" width="200">
-            </div>
-            <div class="col-md-12 col-md-pull-12">
-                <div id="circleci" class="type-h3">
-                    Circle CI
-                </div>
-                <div class="type-sh3">
-                    Gives software developers powerful Continuous Integration and Deployment with easy setup and maintenance.
-                </div>
-                <p>This integration will post notifications to a private chat or group in Telegram when a CircleCI build finishes.
-                    You can configure per branch build notification. Alternatively, you can only send notifications for branches
-                    which match a whitelist. You can combine them, in which case only branch names which do match the whitelist
-                    and do not match the blacklist get notifications.</p>
-                <div class="btn-group">
-                    <a class="btn btn-primary" href="https://circleci.com" target="_blank" title="Web Site">Web Site</a>
-                    <a class="btn btn-secondary" href="https://circleci.com/docs/1.0/configuration/#per-branch-notifications" target="_blank"
-                        title="Documentation">Documentation</a>
+                    <p class="type-p2">Paragraph 2</p>
+                    <p class="type-p2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p>
+                    <p>Paragraph 3</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p>
+                    <p class="type-p4">Paragraph 4</p>
+                    <p class="type-p4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p>
                 </div>
             </div>
         </div>
