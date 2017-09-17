@@ -6,7 +6,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 This project incorporates material from the projects listed below (Third Party IP). The original copyright notice and the license under which Torkware received such Third Party IP, are set forth below. Torkware reserves all other rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.
 
-## Torkware
+## Winstrap
 
 Copyright © 2015 Microsoft Corporation
 
