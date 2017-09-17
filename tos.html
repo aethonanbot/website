@@ -5,6 +5,32 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Aethonan">
+    <meta property="og:image" content="https://cdn1.telesco.pe/file/OkfZ--XD6E4jCzN5te4CMjxPsjbYViuV_ZE1-6T1hSruVDRZD36MNreFXpGYzoQSc3q6SEJyoTMleMb-rj9wC-bBlACrmC1h4Pj4ct6K-cJh1I0mgGHvBc375bTXbaLaYg_lv-uRr52McLKOMXrikizWMvcwh2JwRgNSWhsN-hHYIzm4cDdGCfsUttpMbVUwHTPNWN36egwEEFldvGxWJ8rT5sjTq5F6BaSTwrCBRK-WjFfa_qCedvdI18wDAgAcup2cEWd1dC3fdKV-MYbDIMiRKOYnlekWnytc8GeWIk5nq1FKaBT70W2rQwn6Xd8REJm3qv4o7jHgCgC7eXVFEg">
+    <meta property="og:site_name" content="Telegram">
+    <meta property="og:description" content="This bot can notify you about builds from the continuous integration system.">
+    <meta property="twitter:title" content="Aethonan">
+    <meta property="twitter:image" content="https://cdn1.telesco.pe/file/OkfZ--XD6E4jCzN5te4CMjxPsjbYViuV_ZE1-6T1hSruVDRZD36MNreFXpGYzoQSc3q6SEJyoTMleMb-rj9wC-bBlACrmC1h4Pj4ct6K-cJh1I0mgGHvBc375bTXbaLaYg_lv-uRr52McLKOMXrikizWMvcwh2JwRgNSWhsN-hHYIzm4cDdGCfsUttpMbVUwHTPNWN36egwEEFldvGxWJ8rT5sjTq5F6BaSTwrCBRK-WjFfa_qCedvdI18wDAgAcup2cEWd1dC3fdKV-MYbDIMiRKOYnlekWnytc8GeWIk5nq1FKaBT70W2rQwn6Xd8REJm3qv4o7jHgCgC7eXVFEg">
+    <meta property="twitter:site" content="@Telegram">
+    <meta property="al:ios:app_store_id" content="686449807">
+    <meta property="al:ios:app_name" content="Telegram Messenger">
+    <meta property="al:ios:url" content="tg://resolve?domain=aethonanbot">
+    <meta property="al:android:url" content="tg://resolve?domain=aethonanbot">
+    <meta property="al:android:app_name" content="Telegram">
+    <meta property="al:android:package" content="org.telegram.messenger">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Telegram">
+    <meta name="twitter:description" content="This bot can notify you about builds from the continuous integration system.">
+    <meta name="twitter:app:name:iphone" content="Telegram Messenger">
+    <meta name="twitter:app:id:iphone" content="686449807">
+    <meta name="twitter:app:url:iphone" content="tg://resolve?domain=aethonanbot">
+    <meta name="twitter:app:name:ipad" content="Telegram Messenger">
+    <meta name="twitter:app:id:ipad" content="686449807">
+    <meta name="twitter:app:url:ipad" content="tg://resolve?domain=aethonanbot">
+    <meta name="twitter:app:name:googleplay" content="Telegram">
+    <meta name="twitter:app:id:googleplay" content="org.telegram.messenger">
+    <meta name="twitter:app:url:googleplay" content="https://t.me/aethonanbot">
+    <meta name="apple-itunes-app" content="app-id=686449807, app-argument: tg://resolve?domain=aethonanbot">
     <title>aethonan</title>
     <link rel="stylesheet" href="css/torkware.min.css?0.1.0" />
     <script src="js/vendor/jquery.min.js"></script>
@@ -15,134 +41,134 @@
 </head>
 <body>
     <nav class="navbar navbar-default">
-        <div class="navbar-global theme-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="https://www.torkware.com" class="navbar-brand">
-                        <img src="images/torkware.svg" alt="Torkware" height="23" />
-                    </a>
-                </div>
+    <div class="navbar-global theme-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="https://www.torkware.com" class="navbar-brand">
+                    <img src="images/torkware.svg" alt="Torkware" height="23" />
+                </a>
             </div>
         </div>
-        <div class="navbar-local color-accent theme-dark">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="glyph glyph-hamburger"></i>
-                    </button>
-                    <a href="index.html" class="navbar-brand">
-                        <img src="images/aethonan.svg" alt="Torkware" height="50" />
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">News<i class="glyph glyph-chevron-down-2"></i></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="blog.html">Recent News</a></li>
-                                <li class="divider"></li>
-                                <li><a href="suscribe.html">Suscribe</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Integrations<i class="glyph glyph-chevron-down-2"></i></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="index.html#integrations">Possible integrations</a></li>
-                                <li class="divider"></li>
-                                <li><a href="index.html#travis-ci">Travis CI</a></li>
-                                <li><a href="index.html#circleci">Circle CI</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="pricing.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pricing<i class="glyph glyph-chevron-down-2"></i></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="pricing.html#premium">Premium</a></li>
-                                <li class="divider"></li>
-                                <li><a href="pricing.html#foss">F/OSS</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="layout.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support<i class="glyph glyph-chevron-down-2"></i></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="https://github.com/aethonan/aethonan.github.io/issues?utf8=✓&q=is%3Aissue is%3Aopen is%3Aclosed"
-                                        target="_blank">FAQ <span class="glyph glyph-go type-c1" aria-hidden="true"></span></a></li>
-                                <li class="divider"></li>
-                                <li><a href="https://github.com/aethonan/aethonan.github.io/issues/new?title=Feature%20request&body=Hi,%20@ajsb85"
-                                        target="_blank">Feature request <span class="glyph glyph-go type-c1" aria-hidden="true"></span></a></li>
-                                <li><a href="https://github.com/aethonan/aethonan.github.io/issues/new?title=Bug%20reporting&body=Hi,%20@ajsb85"
-                                        target="_blank">Report issue <span class="glyph glyph-go type-c1" aria-hidden="true"></span></a></li>
-                                <li><a href="https://github.com/aethonan/aethonan.github.io/issues/new?title=Question&body=Hi,%20@ajsb85"
-                                        target="_blank">Ask <span class="glyph glyph-go type-c1" aria-hidden="true"></span></a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<i class="glyph glyph-chevron-down-2"></i></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="https://t.me/ajsb85" target="_blank">Bot owner <span class="glyph glyph-go type-c1" aria-hidden="true"></span></a></li>
-                                <li class="divider"></li>
-                                <li><a href="tos.html">Terms of Service</a></li>
-                                <li><a href="privacy.html">Privacy</a></li>
-                                <li><a href="copying.html">Copying</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="color-type-secondary" href="#changelog" data-toggle="modal">Changelog</a>
-                        </li>
-                    </ul>
-                </div>
+    </div>
+    <div class="navbar-local color-accent theme-dark">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="glyph glyph-hamburger"></i>
+                </button>
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/aethonan.svg" alt="Torkware" height="50" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">News<i class="glyph glyph-chevron-down-2"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="blog.html">Recent News</a></li>
+                            <li class="divider"></li>
+                            <li><a href="suscribe.html">Suscribe</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Integrations<i class="glyph glyph-chevron-down-2"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="index.html#integrations">Possible integrations</a></li>
+                            <li class="divider"></li>
+                            <li><a href="index.html#travis-ci">Travis CI</a></li>
+                            <li><a href="index.html#circleci">Circle CI</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="pricing.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pricing<i class="glyph glyph-chevron-down-2"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="pricing.html#premium">Premium</a></li>
+                            <li class="divider"></li>
+                            <li><a href="pricing.html#foss">F/OSS</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="layout.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support<i class="glyph glyph-chevron-down-2"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://github.com/aethonan/aethonan.github.io/issues?utf8=✓&q=is%3Aissue is%3Aopen is%3Aclosed"
+                                    target="_blank">FAQ <span class="glyph glyph-go type-c1" aria-hidden="true"></span></a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://github.com/aethonan/aethonan.github.io/issues/new?title=Feature%20request&body=Hi,%20@ajsb85"
+                                    target="_blank">Feature request <span class="glyph glyph-go type-c1" aria-hidden="true"></span></a></li>
+                            <li><a href="https://github.com/aethonan/aethonan.github.io/issues/new?title=Bug%20reporting&body=Hi,%20@ajsb85"
+                                    target="_blank">Report issue <span class="glyph glyph-go type-c1" aria-hidden="true"></span></a></li>
+                            <li><a href="https://github.com/aethonan/aethonan.github.io/issues/new?title=Question&body=Hi,%20@ajsb85"
+                                    target="_blank">Ask <span class="glyph glyph-go type-c1" aria-hidden="true"></span></a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<i class="glyph glyph-chevron-down-2"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://t.me/ajsb85" target="_blank">Bot owner <span class="glyph glyph-go type-c1" aria-hidden="true"></span></a></li>
+                            <li class="divider"></li>
+                            <li><a href="tos.html">Terms of Service</a></li>
+                            <li><a href="privacy.html">Privacy</a></li>
+                            <li><a href="copying.html">Copying</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="color-type-secondary" href="#changelog" data-toggle="modal">Changelog</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </nav>
-    <div class="alert-stack">
-        <div class="alert alert-warning alert-dismissible fade in" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true"><i class="glyph glyph-cancel"></i></span>
-            </button>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-20">
-                        <p>This Website is under construction.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p>
-                            <a href="https://github.com/aethonan/aethonan.github.io/" class="pull-right hidden-xs hidden-sm">Source Code</a>
-                            <!--<a href="https://github.com/aethonan/aethonan.github.io/" class="visible-xs-inline visible-sm-inline hidden-md">Source Code</a>-->
-                        </p>
-                    </div>
+    </div>
+</nav>
+<div class="alert-stack">
+    <div class="alert alert-warning alert-dismissible fade in" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true"><i class="glyph glyph-cancel"></i></span>
+        </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-20">
+                    <p>This Website is under construction.</p>
                 </div>
-            </div>
-        </div>
-    </div>    <div class="modal modal-center" id="changelog" tabindex="-1" role="dialog" aria-labelledby="changelog-label" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="glyph glyph-cancel" aria-hidden="true"></i>
-                    </button>
-                    <h4 class="modal-title" id="changelog-label">Changelog</h4>
-                </div>
-                <div class="modal-body">
-                    <dl>
-                        <dt class="m-t-sm">0.2.1</dt>
-                        <dd>
-                            <ul class="list-unstyled">
-                                <li>Added ...</li>
-                                <li>Bug fixes.</li>
-                            </ul>
-                        </dd>
-                        <dt class="m-t-sm">0.1.0</dt>
-                        <dd>
-                            <ul class="list-unstyled">
-                                <li>Initialize Aethonan.</li>
-                            </ul>
-                        </dd>
-                    </dl>
+                <div class="col-md-4">
+                    <p>
+                        <a href="https://github.com/aethonan/aethonan.github.io/" class="pull-right hidden-xs hidden-sm">Source Code</a>
+                        <!--<a href="https://github.com/aethonan/aethonan.github.io/" class="visible-xs-inline visible-sm-inline hidden-md">Source Code</a>-->
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
+</div> <div class="modal modal-center" id="changelog" tabindex="-1" role="dialog" aria-labelledby="changelog-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="glyph glyph-cancel" aria-hidden="true"></i>
+                </button>
+                <h4 class="modal-title" id="changelog-label">Changelog</h4>
+            </div>
+            <div class="modal-body">
+                <dl>
+                    <dt class="m-t-sm">0.2.1</dt>
+                    <dd>
+                        <ul class="list-unstyled">
+                            <li>Added ...</li>
+                            <li>Bug fixes.</li>
+                        </ul>
+                    </dd>
+                    <dt class="m-t-sm">0.1.0</dt>
+                    <dd>
+                        <ul class="list-unstyled">
+                            <li>Initialize Aethonan.</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="container">
     <div class="row" id="paragraphs">
         <div class="col-xs-24">
             <div class="row">
@@ -183,11 +209,11 @@
             </div>
         </div>
     </div>
-</div>
-    <a href="#top" class="back-to-top">
-        <i class="glyph glyph-up"></i>
-        <span class="sr-only">Back to top</span>
-    </a>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/app.js"></script></body>
+</div> <a href="#top" class="back-to-top">
+    <i class="glyph glyph-up"></i>
+    <span class="sr-only">Back to top</span>
+</a>
+ <script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+</body>
 </html>
