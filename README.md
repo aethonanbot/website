@@ -1,2 +1,3 @@
-# aethonan.github.io
+# Aethonan Bot
+
 Web Site of the Aethonan bot
